@@ -1,0 +1,68 @@
+@import '../../global/colors';
+
+@font-face{
+    font-family: AmazonEmber;
+    src: url(../../fonts/AmazonEmber_Rg.ttf);
+}
+
+*{
+    font-family: AmazonEmber;
+    font-style: normal;
+}
+
+.request_accountname--wrap{
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.request_product--wrap{
+    min-width: 110px;
+    display: flex;
+    justify-content: center;
+}
+.request_lastupdate--wrap{
+    min-width: 86px;
+    display: flex;
+    justify-content: center;
+}
+.request_status--wrap{
+    min-width: 85px;
+    display: flex;
+    justify-content: center;
+}
+.request_status--img{
+    max-width: 85px;
+
+}
+.request_submittedon--wrap{
+    min-width: 90px;
+    display: flex;
+    justify-content: center;
+}
+.request_message--wrap{
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.request_wrap{
+    display: flex;
+    max-width: 100%;
+    padding: 0 18px 0 18px;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    border-bottom: 1px solid rgb(128 130 133 / 20%);
+}
+
+.request_message[data-style='1']{
+    opacity: 0.5;
+}
+
+.request_message[data-style='2']{
+    text-decoration: underline;
+    cursor: pointer;
+}

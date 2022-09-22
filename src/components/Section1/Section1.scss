@@ -1,0 +1,95 @@
+// < NEW REQUEST - SECTION 1_1 > // 
+.section_1--1{
+    margin-bottom: 20px;
+}
+
+// < NEW REQUEST - SECTION 1_2 > // 
+.section_1--2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section_1--pcn,
+.section_1--scn{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.section_1--pcn_input,
+.section_1--scn_input{
+    max-width: 100%;
+    height: 50px;
+    border: 1px solid rgba(128, 130, 133, 0.5);
+    border-radius: 10px;
+}
+
+// < NEW REQUEST - SECTION 1_3 > // 
+.section_1--3{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.section_3--cw{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_3--cw_input{
+    height: 50px;
+    border: 1px solid rgba(128, 130, 133, 0.5);
+    border-radius: 10px;
+}
+
+// < NEW REQUEST - SECTION 1_4 > // 
+.section_1--4{
+    display: flex;
+    flex-direction: column;
+}
+
+.section_4--label{
+    margin-bottom: 4px;
+}
+
+.section_4--container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_4--ig,
+.section_4--fb,
+.section_4--tw,
+.section_4--tt{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.section_4--ig_input,
+.section_4--fb_input,
+.section_4--tw_input,
+.section_4--tt_input{
+    border: 1px solid rgba(128, 130, 133, 0.5);
+    border-radius: 10px;
+    height: 50px;
+    width: 121px;
+    padding-left: 52px;
+}
+
+.section_4--img_wrap{
+    width: 50px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-right: 1px solid rgba(128, 130, 133, 0.5);
+}
+.section_4--img{
+    width: 20px;
+    height: 20px;
+}

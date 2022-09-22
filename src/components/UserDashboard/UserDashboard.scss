@@ -1,0 +1,46 @@
+@import '../../global/colors';
+
+@font-face{
+    font-family: AmazonEmber;
+    src: url(../../fonts/AmazonEmber_Rg.ttf);
+}
+
+*{
+    font-family: AmazonEmber;
+    font-style: normal;
+}
+
+.user_dashboard--container{
+    position: relative;
+    display: flex;
+}
+
+.left_nav--new_request{
+    background-color: $squid-ink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 34px;
+    width: 209px;
+    height: 34px;
+
+    &:hover{
+        background-color: rgba(35, 47, 62, 0.75);
+    }
+}
+
+.left_nav--new_request--plus{
+    width: 22px;
+    height: 22px;
+    margin-right: 9px;
+}
+
+.left_nav--new_request--text{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $white;
+    margin: 0;
+}

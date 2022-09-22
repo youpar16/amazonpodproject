@@ -1,0 +1,94 @@
+@import '../../global/colors';
+
+@font-face{
+    font-family: AmazonEmber;
+    src: url(../../fonts/AmazonEmber_Rg.ttf);
+}
+
+*{
+    font-family: AmazonEmber;
+    font-style: normal;
+}
+
+.left_nav{
+    width: 250px;
+    min-height: 630px;
+    padding: 60px 30px 30px 30px;
+}
+
+.left_nav--container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left_nav--amz_logo{
+    width: 190px;
+    margin-bottom: 48px;
+}
+
+.left_nav--all_requests,
+.left_nav--messages{
+    display: flex;
+    text-decoration: none;
+}
+
+.left_nav--logo{
+    margin-right: 16px;
+}
+
+.left_nav--description{
+    color: $squid-ink;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.break-line{
+    width: 192px;
+    border: 1px solid $amazon-gray;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    opacity: 50%;
+}
+
+.left_nav--avatar{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.left_nav--avatar_name{
+    margin-left: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: $squid-ink;
+}
+
+.left_nav--sign_out--button{
+    width: 96px;
+    height: 34px;
+    border: 1px solid $squid-ink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+
+    &:hover{
+        background-color: rgb(35 47 62 / 20%);
+    }
+}
+
+.left_nav--sign_out{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $squid-ink;
+}

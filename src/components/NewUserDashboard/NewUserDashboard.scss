@@ -1,0 +1,25 @@
+@import '../../global/colors';
+
+@font-face{
+    font-family: AmazonEmber;
+    src: url(../../fonts/AmazonEmber_Rg.ttf);
+}
+
+*{
+    font-family: AmazonEmber;
+    font-style: normal;
+}
+
+
+.hidden_submitted_request{
+    width: 796px;
+    height: 40px;
+    left: 382px;
+    top: 335px;
+    z-index: 10;
+    position: absolute;
+
+    &:hover{
+        background: rgb(128 130 133 / 25%);
+    }
+}

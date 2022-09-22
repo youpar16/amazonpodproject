@@ -1,0 +1,117 @@
+@import '../../global/colors';
+
+@font-face{
+    font-family: AmazonEmber;
+    src: url(../../fonts/AmazonEmber_Rg.ttf);
+}
+
+*{
+    font-family: AmazonEmber;
+    font-style: normal;
+}
+
+.input_label{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(128, 130, 133, 0.95);
+}
+
+// < SECTION 5 - 1 > // 
+.section_5_1--container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.age_choice{
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84px;
+    height: 84px;
+    border: 1px solid rgba(128, 130, 133, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover{
+        border: 1px solid #232F3E;
+    }
+}
+
+// < SECTION 5 - 2 > // 
+.section_5--2{
+    margin-top: 20px;
+}
+
+.section_5_2--container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender_choice{
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    border: 1px solid rgba(128, 130, 133, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover{
+        border: 1px solid #232F3E;
+    }
+}
+
+// < SECTION 5 - 3 > // 
+.section_5--3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.section_5_3--input{
+    margin-top: 4px;
+    padding-top: 8px;
+    height: 80px;
+    border: 1px solid rgba(128, 130, 133, 0.5);
+    border-radius: 10px;
+    resize: none;
+}
+
+// < SECTION 5 - 4 > // 
+.section_5--4{
+    margin-top: 20px;
+}
+
+// < SECTION 5 - 5 > // 
+.section_5--5{
+    margin-top: 20px;
+}
+
+// < SECTION 5 - 6 > // 
+.section_5--6{
+    margin-top: 20px;
+}
+
+// < SECTION 5 - 7 > // 
+.section_5--7{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_5_7--city_container,
+.section_5_7--zipcode_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.section_5_7--input{
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgba(128, 130, 133, 0.5);
+    border-radius: 10px;
+}

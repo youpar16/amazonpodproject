@@ -1,0 +1,83 @@
+@import '../../global/colors';
+
+@font-face{
+    font-family: AmazonEmber;
+    src: url(../../fonts/AmazonEmber_Rg.ttf);
+}
+
+*{
+    font-family: AmazonEmber;
+    font-style: normal;
+}
+
+.form_container{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: $white;
+    padding: 26px 24px 24px 24px;
+    filter: drop-shadow(5px 5px 20px rgba(35, 47, 62, 0.1));
+    border-radius: 20px;
+    margin-bottom: 56px;
+    position: relative;
+    &[data-number="1"]{
+        z-index: 6;
+    }
+    &[data-number="2"]{
+        z-index: 5;
+    }
+    &[data-number="3"]{
+        z-index: 4;
+    }
+    &[data-number="4"]{
+        z-index: 3;
+    }
+    &[data-number="5"]{
+        z-index: 2;
+    }
+    &[data-number="6"]{
+        z-index: 1;
+    }
+}
+
+// < FORM - TOP HEADER > //
+.form_container--top_header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 24px;
+} 
+
+.top_header--number{
+    width: 40px;
+    height: 40px;
+    background-color: $squid-ink;
+    color: $white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-right: 16px;
+}
+
+.top_header--title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: $squid-ink;
+}
+
+.required_field{
+    position: absolute;
+    right: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.asterisk{
+    color: $red;
+}

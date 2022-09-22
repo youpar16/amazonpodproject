@@ -1,0 +1,120 @@
+@import '../../global/colors';
+
+@font-face{
+    font-family: AmazonEmber;
+    src: url(../../fonts/AmazonEmber_Rg.ttf);
+}
+
+*{
+    font-family: AmazonEmber;
+    font-style: normal;
+}
+
+.signin_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.amazon_logo{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.amazon_description{
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #232F3E;
+    margin-bottom: 60px;
+}
+
+.signin_inner--container{
+    width: 740px;
+    height: 274px;
+    background: #FFFFFF;
+    padding: 60px 30px;
+    box-shadow: 5px 5px 20px rgba(35, 47, 62, 0.2);
+    border-radius: 20px;
+}
+
+
+.signin_signin--text{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: $squid-ink;
+    margin: 0;
+}
+
+.signin_description--text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.signin_form--container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.signin_form--email_container,
+.signin_form--password_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.signin_form--input{
+    width: 350px;
+    height: 50px;
+    border: 1px solid #232F3E;
+    border-radius: 10px;  
+    margin-top: 4px;  
+}
+
+.forgot_password{
+    margin: 0;
+    margin-top: 2px;
+    color: $amazon-blue;
+}
+
+.signin--container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.signin_button{
+    width: 83px;
+    height: 34px;
+    background: #005A95;
+    border-radius: 34.1574px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $white;
+    border: none;
+    margin-right: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.signin_newuser{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: $squid-ink;
+    cursor: pointer;
+}
